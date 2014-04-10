@@ -1,0 +1,29 @@
+{
+  "name": "koa-samples",
+  "version": "0.1.0",
+  "description": "understanding koa with samples",
+  "main": "1_generators.js",
+  "dependencies": {
+    "co": "~3.0.5",
+    "koa": "~0.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xat/understanding-koa.git"
+  },
+  "keywords": [
+    "koa",
+    "samples",
+    "co",
+    "generators"
+  ],
+  "author": "Simon Kusterer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xat/understanding-koa/issues"
+  },
+  "homepage": "https://github.com/xat/understanding-koa"
+}
