@@ -1,3 +1,4 @@
+var http = require('http');
 var koa = require('koa');
 var app = koa();
 
@@ -20,3 +21,4 @@ app.on('error', function(err) {
 });
 
 app.listen(5000);
+http.get('http://localhost:5000', function() { process.exit(1); });

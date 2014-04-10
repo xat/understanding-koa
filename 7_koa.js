@@ -1,3 +1,4 @@
+var http = require('http');
 var koa = require('koa');
 var app = koa();
 
@@ -35,6 +36,7 @@ app.use(function * (next) {
 });
 
 app.listen(5000);
+http.get('http://localhost:5000', function() { process.exit(1); });
 
 // => middleware 1 DOWN
 // => middleware 2 DOWN
