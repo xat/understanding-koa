@@ -26,7 +26,7 @@ var MyGenerator = function * () {
 var FakeCo = function(gen) {
     var walk = function() {
         var obj = gen.next();
-        if (obj.done) { return; }
+        if (obj.done) return;
         obj.value(walk);
     };
 
